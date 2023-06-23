@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Alex Taylor">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="img.js" defer></script>
+    <script defer src="main.js" defer></script>
+    <title>Document</title>
+</head> 
+<body>
+    <main class="content">
+        <header class="header">
+            <audio id="PLAY" autoplay loop>
+                <source src="audio/batman.mp3" preload="auto" type="audio/mpeg"/> 
+            </audio>              
+            <h1 class="title">"Lets Save Gotham"</h1>
+            <div class="image-container">
+                <img src="https://www.xtrafondos.com/wallpapers/vertical/the-batman-dark-returns-8148.jpg" alt="Batman">
+            </div>
+            <div class="movement">
+                <h4 class="subtitle">Number of Moves</h4>
+                <div class="available" id="available"></div>
+            </div>
+        </header>
+        <section class="card-container"></section>
+    </main>
+    <div class="modal" id="modal">
+        <div class="modal-container">
+            <h3 class="modal-title" id="modal-title">"You captured all the criminals and helped save Gotham!</h3>
+            <button type="button" class="button" id="play-again">Got more in you?</button>
+        </div>
+    </div>
+</body> 
+</html>
