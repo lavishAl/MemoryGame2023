@@ -26,13 +26,22 @@ This memory Batman game utilizes a combination of JavaScript, HTML, and CSS to c
 
 HTML provides the structure and layout of the game, defining the elements, containers, and audio tags required. CSS is responsible for the visual styling, including card design, backgrounds, fonts, and modal windows. By leveraging these technologies, the game achieves seamless interactivity, responsive design, and a captivating user interface, enhancing the overall gameplay and immersing players in the world of Batman as they strive to save Gotham City from its villains.
 
+## Challenging Code Parts
+![Start Page](match.png)
+![Start Page](create.png)
 
+## Link to Game
+https://lavishal.github.io/MemoryGame2023/
 
+## Next Steps
+There are a few things I plan to do with this game. Firstly, I would like to add a database and a login function where users can save their accounts so that their data is not lost in future plays. Additionally, I plan to introduce more levels with varying levels of difficulty and different categories/timelines to play in. Moreover, I would like to provide the ability to play from different points of view, allowing players to experience the game as either the hero or the foe.
 
+### In terms of hard coded functions:
+High Score Tracking: Keep track of the fastest completion times or highest scores achieved by players. Store this information in the database and display it on a leaderboard.
 
+Hint System: Allow players to use hints during the game to reveal the location of a matching pair of cards. The hints could be limited in number or have a cooldown period.
 
-
-
+Power-ups: Introduce power-up cards that provide special abilities when flipped, such as temporarily revealing all cards on the board or freezing the timer for a certain duration.
 
 
 
