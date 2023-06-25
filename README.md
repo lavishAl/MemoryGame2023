@@ -11,12 +11,12 @@ Beware, time is of the essence! You have a limited number of moves to capture al
 
 ## Game pictures
 <!-- <img src="Documents/codeProject/MemoryGame2023/start.png"> -->
-![Start Page](start.png){:width="500px"}
+<img src="start.png" alt="Start Page" width="500px" />
 
 This is how the game is first displayed. User is granted a limited amount of moves/clicks to match all cards to their pairs.
 
 <!-- <img src="Documents/codeProject/MemoryGame2023/winPopUp.png"> -->
-![Win PopUp](winPopUp.png){:width="500px"}
+<img src="winPopUp.png" alt="Win PopUp" width="500px" />
 
 This shows how a winner is determined and what the winner pop up looks like allowing the user to click a play again button.
 
@@ -27,8 +27,9 @@ This memory Batman game utilizes a combination of JavaScript, HTML, and CSS to c
 HTML provides the structure and layout of the game, defining the elements, containers, and audio tags required. CSS is responsible for the visual styling, including card design, backgrounds, fonts, and modal windows. By leveraging these technologies, the game achieves seamless interactivity, responsive design, and a captivating user interface, enhancing the overall gameplay and immersing players in the world of Batman as they strive to save Gotham City from its villains.
 
 ## Challenging Code Parts
-![Start Page](match.png){:width="500px"}
-![Start Page](create.png){:width="500px"}
+<img src="match.png" alt="Match Page" width="500" />
+<img src="create.png" alt="Create Page" width="500" />
+
 
 ## Link to Game
 https://lavishal.github.io/MemoryGame2023/
