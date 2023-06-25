@@ -61,14 +61,14 @@ let currentCards = [];
 currentCards.push(...CARDS);
 currentCards.push(...CARDS);
 let gamePause = false;
-let counter = CARDS.length + 99;
+let counter = CARDS.length + 40;
 let gameLost = false;
 let alfred;
 
 // Event listener to play the background audio when the window loads
 window.addEventListener('load', function() {
   alfred = new Audio('audio/alfred.mp3');
-  playAudio();
+  //playAudio();
 });
  
 function shuffle(array) {
@@ -76,10 +76,10 @@ function shuffle(array) {
   return array.sort(() => Math.random() - 0.5);
 }
 
-function playAudio() {
-  const audio = new Audio('audio/batman.mp3');
-  audio.play();
-}
+// function playAudio() {
+//   const audio = new Audio('audio/batman.mp3');
+//   audio.play();
+// }
 
 function win() {
   // Sets the gamePause flag to true, displays the 'You saved Gotham!' message in the modal, and opens the modal
