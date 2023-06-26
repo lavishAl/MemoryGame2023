@@ -10,12 +10,14 @@ Beware, time is of the essence! You have a limited number of moves to capture al
 
 
 ## Game pictures
-<!-- <img src="Documents/codeProject/MemoryGame2023/start.png"> -->
 <img src="start.png" alt="Start Page" width="500px" />
 
 This is how the game is first displayed. User is granted a limited amount of moves/clicks to match all cards to their pairs.
 
-<!-- <img src="Documents/codeProject/MemoryGame2023/winPopUp.png"> -->
+<img src="cards.png" alt="Card Page" width="500px" />
+
+This image how the cards layout and data on the backside of them.
+
 <img src="winPopUp.png" alt="Win PopUp" width="500px" />
 
 This shows how a winner is determined and what the winner pop up looks like allowing the user to click a play again button.
